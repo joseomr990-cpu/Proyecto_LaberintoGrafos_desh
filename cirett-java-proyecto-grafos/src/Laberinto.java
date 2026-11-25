@@ -4,18 +4,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Representa un laberinto cargado desde un archivo de texto.
- *
- * En este paso del proyecto, esta clase SOLO se encarga de:
- *   - Leer el archivo linea por linea, conservando espacios.
- *   - Validar dimensiones y caracteres.
- *   - Determinar la entrada y la salida (por marcas E/S o por perimetro).
- *
- * La construccion del grafo (Vertice, Vertices, Arcos, Grafo) y los
- * algoritmos de busqueda (DFS, BFS, Dijkstra) se agregaran en pasos
- * posteriores, una vez que la lectura este resuelta y probada.
- */
 public class Laberinto {
 
     // Conjunto de caracteres permitidos dentro del archivo del laberinto.

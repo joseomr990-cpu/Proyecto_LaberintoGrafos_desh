@@ -1,12 +1,6 @@
 import java.io.IOException;
 import java.util.Scanner;
  
-/**
- * Punto de entrada del programa. Muestra el menu, lo repite hasta que se
- * elija Salir, y por ahora solo tiene implementada la opcion de Cargar
- * laberinto (opciones 2-5 quedan como pendientes hasta el siguiente paso,
- * cuando se agreguen el grafo y los algoritmos).
- */
 public class proyecto_grafos {
  
     private static final String RUTA_LABERINTO =
